@@ -8,7 +8,7 @@ OpenJDK Runtime Environment (build 13.0.2+8)
 OpenJDK 64-Bit Server VM (build 13.0.2+8, mixed mode)
 
 # Resultados
-
+```java
 Benchmark                          (length)  Mode  Cnt      Score       Error  Units
 PairSumBenchmark.testPairSumBestN        10  avgt   20      1.845 ±     4.331  us/op
 PairSumBenchmark.testPairSumBestN      5000  avgt   20    724.435 ±   133.503  us/op
@@ -25,6 +25,7 @@ PairSumBenchmark.testPairSumNLOGN      5000  avgt   20   1064.895 ±   162.869  
 PairSumBenchmark.testPairSumNLOGN     30000  avgt   20   4140.750 ±   690.458  us/op
 PairSumBenchmark.testPairSumNLOGN    100000  avgt   20  12127.639 ±   642.776  us/op
 PairSumBenchmark.testPairSumNLOGN   1000000  avgt   20  86335.860 ±    89.710  us/op
+```
 
 # Conclusão 
 
